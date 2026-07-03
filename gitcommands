@@ -1,0 +1,3 @@
+git status --tracks untracked files
+step-2 NOw add it to the staging area
+git add . or git add (that file name)
