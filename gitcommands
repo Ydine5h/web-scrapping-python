@@ -101,3 +101,33 @@ first push
 git push -u origin main
 
 
+download latest commits
+git pull
+
+change github repo url
+git remote set-url origin URL
+
+stage 7
+git hides your unfinished work
+git stash (hidden locker)
+
+How to get back Unfinished work
+git stash pop
+
+save unfinished work
+git stash
+
+view Stashes
+git stash list
+
+bring latest stash back
+git stash pop
+
+bring it back but keep a copy
+git stash apply
+
+delete one stash
+git stash drop
+
+delete all stashes
+git stash clear
