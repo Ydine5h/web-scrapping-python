@@ -1,3 +1,103 @@
 git status --tracks untracked files
 step-2 NOw add it to the staging area
 git add . or git add (that file name)
+step-3 now again check status of those file
+git status
+step 4 commit
+git commit -m "added new files"
+step-5 push
+git push
+
+stage 1 -- Creating a repo
+git init
+
+configure your identity one time
+git config --global user.name "Your Name"
+git config --global user.email "Your@gmail.com"
+
+
+see configuration
+git config --list
+
+
+stage 2 -- Daily workflow 
+there at beginning
+
+stage 3 --Looking at History
+
+view commits
+git log
+
+One-line history
+git log --oneline
+
+show changes
+git diff
+
+stage4 - undo mistakes
+git restore file.py
+
+restore everything
+git restore .
+
+undo staging
+git restore --staged file.py
+
+stage 5 -- Branches
+
+view Branches 
+git branch
+
+create a branch
+git branch filename (it creates new timeline with filename)
+
+now you need to switch branch from main
+
+git switch filename
+
+Create + Swiitch
+instead of those commands we use
+git switch -c playwright
+
+go back
+
+git switch main
+
+Merge after testing everything
+after testing everything
+go to
+
+git switch main
+
+then
+
+git merge playwright
+
+now this becomes the part of main
+
+Delete Branch
+After merging
+git branch -d playwright 
+deletes the branch coz it is already merged
+
+Stage 6- GitHub(Remotes)
+
+gitHub stores copy of git repository
+
+instead of copying files manually
+we'll use
+git clone https://githun.com/Ydine5h/web-scrapping-python.git
+
+Add a remote (one time only)
+git remote add origin https://github.com/Ydine5h/web-scrapping-python.git
+
+check the remote 
+git remote -v
+
+rename branch to main
+git branch -M main
+
+first push
+git push -u origin main
+
+
